@@ -11,7 +11,7 @@ async def main(npub):
     client = Client()
     await client.add_relay("wss://relay.damus.io")
     await client.connect()
-    pk = PublicKey.from_bech32(npub)
+    pk = PublicKey.parse(npub)
     print(f"Getting profile metadata for {npub}:")
     f = Filter().kind(Kind(0)).author(pk).limit(1)
     events = await client.get_events_of([f], timedelta(seconds=15))
