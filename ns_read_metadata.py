@@ -1,6 +1,5 @@
-# requires nostr_sdk 0.32.2
-# last version 0.39 will crash
-# usage example: python ns_read_metadata.py npub1mwce4c8qa2zn9zw9f372syrc9dsnqmyy3jkcmpqkzaze0slj94dqu6nmwy
+# Usage example: python ns_read_metadata.py npub1mwce4c8qa2zn9zw9f372syrc9dsnqmyy3jkcmpqkzaze0slj94dqu6nmwy
+# Compatible with version 0.39 
 # ns_read_metadata.py
 # version 3
 import asyncio, argparse, json
