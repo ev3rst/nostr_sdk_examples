@@ -11,3 +11,4 @@ Example use of Nostr_sdk in Python
 
 - https://rust-nostr.org/
 - https://pypi.org/project/nostr-sdk/
+- https://github.com/rust-nostr/nostr/tree/b2bb82033ac834cda621a1565dddfb64ec9f10b5/bindings/nostr-sdk-ffi/python/examples
