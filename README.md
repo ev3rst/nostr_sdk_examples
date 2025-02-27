@@ -6,7 +6,7 @@ Example use of Nostr_sdk in Python
 2. [x] How to derive npub from nsec
 3. [ ] How to fetch the relay list of a given user?
 4. [ ] How to fetch the follow list from a given user?
-5. [ ] How to follow a given npub?
+5. [x] How to follow a given npub?
 ----
 
 - https://rust-nostr.org/
