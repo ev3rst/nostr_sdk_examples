@@ -3,7 +3,7 @@ from datetime import timedelta
 import asyncio
 
 async def main():
-    keys = Keys.parse("nsec .. to replace")
+    keys = Keys.parse("nsec_key")
     client = Client()
     await client.add_relay("wss://relay.damus.io")
     await client.connect()
@@ -16,7 +16,7 @@ async def main():
     if event:
         # Get current contact public keys and add a new contact
         public_keys = event.tags().public_keys()
-        new_public_key = PublicKey.parse("npub of user to follow")
+        new_public_key = PublicKey.parse("npub_to_follow")
         public_keys.append(new_public_key)
         
         # Create a new contact list event and send it to relays
